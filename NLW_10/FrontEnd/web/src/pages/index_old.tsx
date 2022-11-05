@@ -1,4 +1,4 @@
-import { Tweet } from "../components/Tweet";
+import { Tweet } from "../../components/Tweet";
 
 // export default function Home(){
 
@@ -19,11 +19,11 @@ interface HomeProps{
   count : number;
 }
 
-export default function Home(props: HomeProps){
+export default function Home_old(props: HomeProps){
   // console.log(props);
   return (
     <div>
-      <h1>Hello World!!!!</h1>
+      <h1 className="text-violet-500">Hello World!!!!</h1>
       <h2>Contagem: {props.count}</h2>
     </div>
   ); 
